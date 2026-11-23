@@ -1,5 +1,5 @@
 name: "WeeWX USB"
-version: "1.0.7"
+version: "1.0.8"
 slug: "weewx_usb"
 description: "WeeWX mit USB-Passthrough für Technoline WS2816"
 arch:
