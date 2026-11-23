@@ -1,0 +1,14 @@
+name: "WeeWX USB"
+version: "1.0.0"
+slug: "weewx_usb"
+description: "WeeWX mit USB-Passthrough für Technoline WS2816"
+arch:
+  - aarch64
+  - amd64
+startup: services
+boot: auto
+init: false
+usb: true
+full_access: true
+map:
+  - all_addon_configs:rw
